@@ -16,7 +16,8 @@ TESTING: (using TRY CATCH)
 		+ search: use traversedList vector
 
 DISTRIBUTION:
-size:	_ small tests (10 nodes) for basic-fault detecting
+size:	
+	_ small tests (10 nodes) for basic-fault detecting
 		+ add 10 nodes with random key
 		+ search 5 random keys
 		+ remove 10 nodes in random order
@@ -28,17 +29,22 @@ size:	_ small tests (10 nodes) for basic-fault detecting
 		+ add 100 nodes with random key
 		+ search 50 random keys
 		+ remove 100 nodes in random order
-type:	_ AVL: 100 tests
+type:	
+	_ AVL: 100 tests
 	_ Splay: 200 tests 	
 	_ BKU: 5000 tests
-so:	_ AVL: 10 - 20 - 70
-	_ Splay: 20 - 30 - 150
-	_ BKU: 100 - 400 - 4500
+so:	
+	_ AVL: 100 - 200 - 200
+	_ Splay: 200 - 300 - 500
+	_ BKU: 500 - 1500 - 5000
 
 CONVENTION for testcases:
 	a: choose a tree AVL | Splay | BKU
-	b: choose a test size small | medium | big
+	b: choose a test size 10 | 20 | 100
 _ first line: a b
-_ next x line (depending on size): key value
-_ next x/2 line: key
-_ next x line: key
+_ next b line (depending on size): insert key
+_ next b/4 line: duplicate insert key
+_ next b/2 line: search key
+_ next b/4 line: search not found key
+_ next b/4 line: delete not found key
+_ next b line: delete key
