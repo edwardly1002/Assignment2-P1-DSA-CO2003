@@ -5,7 +5,28 @@
 
 ###############################################################
 NOTE THAT THE THREE TEST SETS ARE NOT DIFFERENT AT ALL
+###############################################################
+ADD THIS FUNC TO BKUTree class:
 
+
+void    displayTrees(void (*func)(K key, V value), ofstream& ofile) {
+	ofile << "QUEUES: " << endl;
+	for (int i = 0; i < keys.size(); ++i) {
+		int p = keys.front();
+		keys.pop();
+		keys.push(p);
+		ofile << p << " ";
+	}
+	ofile << endl;
+	ofile << "AVL tree: " << endl;
+	traverseNLROnAVL(func);
+	ofile << endl;
+	ofile << "Splay tree: " << endl;
+	traverseNLROnSplay(func);
+	ofile << endl;
+}
+
+###############################################################
 --DEBUGING TOOL:
 	_ printStructure() provided
 
