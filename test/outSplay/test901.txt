@@ -1,0 +1,49 @@
+QUEUES: 
+15 
+AVL tree: 
+15 
+Splay tree: 
+15 
+QUEUES: 
+15 28 
+AVL tree: 
+15 28 
+Splay tree: 
+28 15 
+QUEUES: 
+15 28 11 
+AVL tree: 
+15 11 28 
+Splay tree: 
+11 15 28 
+QUEUES: 
+15 28 11 38 
+AVL tree: 
+15 11 28 38 
+Splay tree: 
+38 11 28 15 
+QUEUES: 
+15 28 11 38 34 
+AVL tree: 
+15 11 34 28 38 
+Splay tree: 
+34 28 11 15 38 
+QUEUES: 
+28 11 38 34 3 
+AVL tree: 
+15 11 3 34 28 38 
+Splay tree: 
+3 34 11 28 15 38 
+QUEUES: 
+11 38 34 3 54 
+AVL tree: 
+15 11 3 34 28 38 54 
+Splay tree: 
+54 3 38 34 11 28 15 
+QUEUES: 
+38 34 3 54 31 
+AVL tree: 
+15 11 3 34 28 31 38 54 
+Splay tree: 
+31 3 28 11 15 54 34 38 
+Duplicate key

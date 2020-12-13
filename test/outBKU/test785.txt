@@ -1,0 +1,121 @@
+QUEUES: 
+2 
+AVL tree: 
+2 
+Splay tree: 
+2 
+QUEUES: 
+2 5 
+AVL tree: 
+2 5 
+Splay tree: 
+5 2 
+QUEUES: 
+2 5 1 
+AVL tree: 
+2 1 5 
+Splay tree: 
+1 2 5 
+QUEUES: 
+2 5 1 8 
+AVL tree: 
+2 1 5 8 
+Splay tree: 
+8 1 5 2 
+QUEUES: 
+2 5 1 8 3 
+AVL tree: 
+2 1 5 3 8 
+Splay tree: 
+3 1 2 8 5 
+QUEUES: 
+5 1 8 3 4 
+AVL tree: 
+3 2 1 5 4 8 
+Splay tree: 
+4 3 1 2 5 8 
+QUEUES: 
+1 8 3 4 0 
+AVL tree: 
+3 1 0 2 5 4 8 
+Splay tree: 
+0 4 1 3 2 5 8 
+QUEUES: 
+8 3 4 0 19 
+AVL tree: 
+3 1 0 2 5 4 8 19 
+Splay tree: 
+19 4 0 1 3 2 8 5 
+QUEUES: 
+3 4 0 19 6 
+AVL tree: 
+3 1 0 2 5 4 8 6 19 
+Splay tree: 
+6 4 0 1 3 2 5 19 8 
+QUEUES: 
+4 0 19 6 7 
+AVL tree: 
+3 1 0 2 6 5 4 8 7 19 
+Splay tree: 
+7 6 4 0 1 3 2 5 8 19 
+QUEUES: 
+0 19 6 7 9 
+AVL tree: 
+6 3 1 0 2 5 4 8 7 19 9 
+Splay tree: 
+9 7 6 4 0 1 3 2 5 8 19 
+QUEUES: 
+19 6 7 9 10 
+AVL tree: 
+6 3 1 0 2 5 4 8 7 10 9 19 
+Splay tree: 
+10 9 7 6 4 0 1 3 2 5 8 19 
+QUEUES: 
+6 7 9 10 11 
+AVL tree: 
+6 3 1 0 2 5 4 10 8 7 9 19 11 
+Splay tree: 
+11 10 9 7 6 4 0 1 3 2 5 8 19 
+QUEUES: 
+7 9 10 11 12 
+AVL tree: 
+6 3 1 0 2 5 4 10 8 7 9 12 11 19 
+Splay tree: 
+12 11 10 9 7 6 4 0 1 3 2 5 8 19 
+QUEUES: 
+9 10 11 12 13 
+AVL tree: 
+6 3 1 0 2 5 4 10 8 7 9 12 11 19 13 
+Splay tree: 
+13 12 11 10 9 7 6 4 0 1 3 2 5 8 19 
+QUEUES: 
+10 11 12 13 14 
+AVL tree: 
+6 3 1 0 2 5 4 10 8 7 9 12 11 14 13 19 
+Splay tree: 
+14 13 12 11 10 9 7 6 4 0 1 3 2 5 8 19 
+QUEUES: 
+11 12 13 14 15 
+AVL tree: 
+6 3 1 0 2 5 4 10 8 7 9 14 12 11 13 19 15 
+Splay tree: 
+15 14 13 12 11 10 9 7 6 4 0 1 3 2 5 8 19 
+QUEUES: 
+12 13 14 15 16 
+AVL tree: 
+6 3 1 0 2 5 4 10 8 7 9 14 12 11 13 16 15 19 
+Splay tree: 
+16 15 14 13 12 11 10 9 7 6 4 0 1 3 2 5 8 19 
+QUEUES: 
+13 14 15 16 17 
+AVL tree: 
+6 3 1 0 2 5 4 14 10 8 7 9 12 11 13 16 15 19 17 
+Splay tree: 
+17 16 15 14 13 12 11 10 9 7 6 4 0 1 3 2 5 8 19 
+QUEUES: 
+14 15 16 17 18 
+AVL tree: 
+6 3 1 0 2 5 4 14 10 8 7 9 12 11 13 16 15 18 17 19 
+Splay tree: 
+18 17 16 15 14 13 12 11 10 9 7 6 4 0 1 3 2 5 8 19 
+Duplicate key

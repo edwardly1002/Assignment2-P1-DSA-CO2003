@@ -1,0 +1,109 @@
+QUEUES: 
+4 
+AVL tree: 
+4 
+Splay tree: 
+4 
+QUEUES: 
+4 12 
+AVL tree: 
+4 12 
+Splay tree: 
+12 4 
+QUEUES: 
+4 12 7 
+AVL tree: 
+7 4 12 
+Splay tree: 
+7 4 12 
+QUEUES: 
+4 12 7 6 
+AVL tree: 
+7 4 6 12 
+Splay tree: 
+6 4 7 12 
+QUEUES: 
+4 12 7 6 5 
+AVL tree: 
+7 5 4 6 12 
+Splay tree: 
+5 4 6 7 12 
+QUEUES: 
+12 7 6 5 30 
+AVL tree: 
+7 5 4 6 12 30 
+Splay tree: 
+30 6 5 4 12 7 
+QUEUES: 
+7 6 5 30 8 
+AVL tree: 
+7 5 4 6 12 8 30 
+Splay tree: 
+8 6 5 4 7 30 12 
+QUEUES: 
+6 5 30 8 15 
+AVL tree: 
+7 5 4 6 12 8 30 15 
+Splay tree: 
+15 8 6 5 4 7 12 30 
+QUEUES: 
+5 30 8 15 19 
+AVL tree: 
+7 5 4 6 12 8 19 15 30 
+Splay tree: 
+19 15 8 6 5 4 7 12 30 
+QUEUES: 
+30 8 15 19 18 
+AVL tree: 
+7 5 4 6 15 12 8 19 18 30 
+Splay tree: 
+18 15 8 6 5 4 7 12 19 30 
+QUEUES: 
+8 15 19 18 1 
+AVL tree: 
+7 5 4 1 6 15 12 8 19 18 30 
+Splay tree: 
+1 15 6 4 5 8 7 12 18 19 30 
+QUEUES: 
+15 19 18 1 10 
+AVL tree: 
+7 5 4 1 6 15 10 8 12 19 18 30 
+Splay tree: 
+10 1 6 4 5 8 7 15 12 18 19 30 
+QUEUES: 
+19 18 1 10 9 
+AVL tree: 
+7 5 4 1 6 15 10 8 9 12 19 18 30 
+Splay tree: 
+9 1 8 6 4 5 7 10 15 12 18 19 30 
+QUEUES: 
+18 1 10 9 11 
+AVL tree: 
+7 5 4 1 6 15 10 8 9 12 11 19 18 30 
+Splay tree: 
+11 10 9 1 8 6 4 5 7 12 15 18 19 30 
+QUEUES: 
+1 10 9 11 3 
+AVL tree: 
+7 5 3 1 4 6 15 10 8 9 12 11 19 18 30 
+Splay tree: 
+3 1 11 9 8 4 6 5 7 10 12 15 18 19 30 
+QUEUES: 
+10 9 11 3 14 
+AVL tree: 
+7 5 3 1 4 6 15 10 8 9 12 11 14 19 18 30 
+Splay tree: 
+14 11 3 1 9 8 4 6 5 7 10 12 15 18 19 30 
+QUEUES: 
+9 11 3 14 17 
+AVL tree: 
+7 5 3 1 4 6 15 10 8 9 12 11 14 19 18 17 30 
+Splay tree: 
+17 14 11 3 1 9 8 4 6 5 7 10 12 15 18 19 30 
+QUEUES: 
+11 3 14 17 16 
+AVL tree: 
+7 5 3 1 4 6 15 10 8 9 12 11 14 19 17 16 18 30 
+Splay tree: 
+16 15 14 11 3 1 9 8 4 6 5 7 10 12 17 18 19 30 
+Duplicate key

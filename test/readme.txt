@@ -1,7 +1,15 @@
-DEBUGING TOOL:
+--RUN TEST:
+	_ copy BKUTree.cpp into folder ./mywork
+	_ modify your directories
+	_ use the Checking.cpp to check the answer
+
+###############################################################
+NOTE THAT THE THREE TEST SETS ARE NOT DIFFERENT AT ALL
+
+--DEBUGING TOOL:
 	_ printStructure() provided
 
-TESTING: (using TRY CATCH)
+--TESTING: (using TRY CATCH)
 	_ AVLTree:
 		+ add: print NLR struct after adding + "Duplicate key"
 		+ remove: print NLR struct after removing + "Not found"
@@ -15,8 +23,8 @@ TESTING: (using TRY CATCH)
 		+ remove: use displayTree()
 		+ search: use traversedList vector
 
-DISTRIBUTION:
-size:	
+--DISTRIBUTION:
+----size:	
 	_ small tests (10 nodes) for basic-fault detecting
 		+ add 10 nodes with random key
 		+ search 5 random keys
@@ -29,16 +37,16 @@ size:
 		+ add 100 nodes with random key
 		+ search 50 random keys
 		+ remove 100 nodes in random order
-type:	
+----type:	
 	_ AVL: 100 tests
 	_ Splay: 200 tests 	
 	_ BKU: 5000 tests
-so:	
+----so:	
 	_ AVL: 100 - 200 - 200
 	_ Splay: 200 - 300 - 500
 	_ BKU: 500 - 1500 - 5000
 
-CONVENTION for testcases:
+--CONVENTION for testcases:
 	a: choose a tree AVL | Splay | BKU
 	b: choose a test size 10 | 20 | 100
 _ first line: a b

@@ -1,0 +1,43 @@
+QUEUES: 
+34 
+AVL tree: 
+34 
+Splay tree: 
+34 
+QUEUES: 
+34 98 
+AVL tree: 
+34 98 
+Splay tree: 
+98 34 
+QUEUES: 
+34 98 9 
+AVL tree: 
+34 9 98 
+Splay tree: 
+9 34 98 
+QUEUES: 
+34 98 9 13 
+AVL tree: 
+34 9 13 98 
+Splay tree: 
+13 9 34 98 
+QUEUES: 
+34 98 9 13 15 
+AVL tree: 
+34 13 9 15 98 
+Splay tree: 
+15 13 9 34 98 
+QUEUES: 
+98 9 13 15 29 
+AVL tree: 
+15 13 9 34 29 98 
+Splay tree: 
+29 15 13 9 34 98 
+QUEUES: 
+9 13 15 29 99 
+AVL tree: 
+15 13 9 34 29 98 99 
+Splay tree: 
+99 29 15 13 9 98 34 
+Duplicate key

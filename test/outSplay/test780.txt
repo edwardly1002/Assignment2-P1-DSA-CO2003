@@ -1,0 +1,67 @@
+QUEUES: 
+86 
+AVL tree: 
+86 
+Splay tree: 
+86 
+QUEUES: 
+86 10 
+AVL tree: 
+86 10 
+Splay tree: 
+10 86 
+QUEUES: 
+86 10 9 
+AVL tree: 
+10 9 86 
+Splay tree: 
+9 10 86 
+QUEUES: 
+86 10 9 52 
+AVL tree: 
+10 9 86 52 
+Splay tree: 
+52 9 10 86 
+QUEUES: 
+86 10 9 52 32 
+AVL tree: 
+10 9 52 32 86 
+Splay tree: 
+32 10 9 52 86 
+QUEUES: 
+10 9 52 32 35 
+AVL tree: 
+32 10 9 52 35 86 
+Splay tree: 
+35 32 10 9 52 86 
+QUEUES: 
+9 52 32 35 43 
+AVL tree: 
+32 10 9 52 35 43 86 
+Splay tree: 
+43 35 32 10 9 52 86 
+QUEUES: 
+52 32 35 43 23 
+AVL tree: 
+32 10 9 23 52 35 43 86 
+Splay tree: 
+23 10 9 35 32 43 52 86 
+QUEUES: 
+32 35 43 23 73 
+AVL tree: 
+32 10 9 23 52 35 43 86 73 
+Splay tree: 
+73 23 10 9 43 35 32 52 86 
+QUEUES: 
+35 43 23 73 79 
+AVL tree: 
+32 10 9 23 52 35 43 79 73 86 
+Splay tree: 
+79 73 23 10 9 43 35 32 52 86 
+QUEUES: 
+43 23 73 79 75 
+AVL tree: 
+52 32 10 9 23 35 43 79 73 75 86 
+Splay tree: 
+75 73 23 10 9 43 35 32 52 79 86 
+Duplicate key

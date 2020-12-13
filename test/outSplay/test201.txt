@@ -1,0 +1,121 @@
+QUEUES: 
+6 
+AVL tree: 
+6 
+Splay tree: 
+6 
+QUEUES: 
+6 9 
+AVL tree: 
+6 9 
+Splay tree: 
+9 6 
+QUEUES: 
+6 9 12 
+AVL tree: 
+9 6 12 
+Splay tree: 
+12 9 6 
+QUEUES: 
+6 9 12 15 
+AVL tree: 
+9 6 12 15 
+Splay tree: 
+15 12 9 6 
+QUEUES: 
+6 9 12 15 16 
+AVL tree: 
+9 6 15 12 16 
+Splay tree: 
+16 15 12 9 6 
+QUEUES: 
+9 12 15 16 2 
+AVL tree: 
+9 6 2 15 12 16 
+Splay tree: 
+2 16 12 6 9 15 
+QUEUES: 
+12 15 16 2 19 
+AVL tree: 
+9 6 2 15 12 16 19 
+Splay tree: 
+19 16 2 12 6 9 15 
+QUEUES: 
+15 16 2 19 0 
+AVL tree: 
+9 2 0 6 15 12 16 19 
+Splay tree: 
+0 19 2 16 12 6 9 15 
+QUEUES: 
+16 2 19 0 14 
+AVL tree: 
+9 2 0 6 15 12 14 16 19 
+Splay tree: 
+14 0 2 12 6 9 19 16 15 
+QUEUES: 
+2 19 0 14 11 
+AVL tree: 
+9 2 0 6 15 12 11 14 16 19 
+Splay tree: 
+11 0 2 9 6 14 12 19 16 15 
+QUEUES: 
+19 0 14 11 7 
+AVL tree: 
+9 2 0 6 7 15 12 11 14 16 19 
+Splay tree: 
+7 2 0 6 11 9 14 12 19 16 15 
+QUEUES: 
+0 14 11 7 10 
+AVL tree: 
+9 2 0 6 7 15 12 11 10 14 16 19 
+Splay tree: 
+10 7 2 0 6 9 11 14 12 19 16 15 
+QUEUES: 
+14 11 7 10 13 
+AVL tree: 
+9 2 0 6 7 15 12 11 10 14 13 16 19 
+Splay tree: 
+13 11 10 7 2 0 6 9 12 14 19 16 15 
+QUEUES: 
+11 7 10 13 5 
+AVL tree: 
+9 2 0 6 5 7 15 12 11 10 14 13 16 19 
+Splay tree: 
+5 2 0 11 7 6 10 9 13 12 14 19 16 15 
+QUEUES: 
+7 10 13 5 8 
+AVL tree: 
+9 6 2 0 5 7 8 15 12 11 10 14 13 16 19 
+Splay tree: 
+8 5 2 0 7 6 11 9 10 13 12 14 19 16 15 
+QUEUES: 
+10 13 5 8 4 
+AVL tree: 
+9 6 2 0 5 4 7 8 15 12 11 10 14 13 16 19 
+Splay tree: 
+4 2 0 8 5 7 6 11 9 10 13 12 14 19 16 15 
+QUEUES: 
+13 5 8 4 3 
+AVL tree: 
+9 6 2 0 4 3 5 7 8 15 12 11 10 14 13 16 19 
+Splay tree: 
+3 2 0 4 8 5 7 6 11 9 10 13 12 14 19 16 15 
+QUEUES: 
+5 8 4 3 17 
+AVL tree: 
+9 6 2 0 4 3 5 7 8 15 12 11 10 14 13 17 16 19 
+Splay tree: 
+17 4 3 2 0 11 8 5 7 6 9 10 14 13 12 16 15 19 
+QUEUES: 
+8 4 3 17 18 
+AVL tree: 
+9 6 2 0 4 3 5 7 8 15 12 11 10 14 13 17 16 19 18 
+Splay tree: 
+18 17 4 3 2 0 11 8 5 7 6 9 10 14 13 12 16 15 19 
+QUEUES: 
+4 3 17 18 1 
+AVL tree: 
+9 6 2 0 1 4 3 5 7 8 15 12 11 10 14 13 17 16 19 18 
+Splay tree: 
+1 0 17 3 2 4 11 8 5 7 6 9 10 14 13 12 16 15 18 19 
+Duplicate key

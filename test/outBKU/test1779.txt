@@ -1,0 +1,121 @@
+QUEUES: 
+1 
+AVL tree: 
+1 
+Splay tree: 
+1 
+QUEUES: 
+1 6 
+AVL tree: 
+1 6 
+Splay tree: 
+6 1 
+QUEUES: 
+1 6 8 
+AVL tree: 
+6 1 8 
+Splay tree: 
+8 6 1 
+QUEUES: 
+1 6 8 14 
+AVL tree: 
+6 1 8 14 
+Splay tree: 
+14 8 6 1 
+QUEUES: 
+1 6 8 14 10 
+AVL tree: 
+6 1 10 8 14 
+Splay tree: 
+10 8 6 1 14 
+QUEUES: 
+6 8 14 10 18 
+AVL tree: 
+10 6 1 8 14 18 
+Splay tree: 
+18 14 10 8 6 1 
+QUEUES: 
+8 14 10 18 7 
+AVL tree: 
+10 6 1 8 7 14 18 
+Splay tree: 
+7 6 1 18 10 8 14 
+QUEUES: 
+14 10 18 7 9 
+AVL tree: 
+10 6 1 8 7 9 14 18 
+Splay tree: 
+9 7 6 1 8 18 10 14 
+QUEUES: 
+10 18 7 9 11 
+AVL tree: 
+10 6 1 8 7 9 14 11 18 
+Splay tree: 
+11 9 7 6 1 8 10 18 14 
+QUEUES: 
+18 7 9 11 13 
+AVL tree: 
+10 6 1 8 7 9 14 11 13 18 
+Splay tree: 
+13 11 9 7 6 1 8 10 14 18 
+QUEUES: 
+7 9 11 13 19 
+AVL tree: 
+10 6 1 8 7 9 14 11 13 18 19 
+Splay tree: 
+19 13 11 9 7 6 1 8 10 18 14 
+QUEUES: 
+9 11 13 19 4 
+AVL tree: 
+10 6 1 4 8 7 9 14 11 13 18 19 
+Splay tree: 
+4 1 19 11 7 6 9 8 10 13 18 14 
+QUEUES: 
+11 13 19 4 0 
+AVL tree: 
+10 6 1 0 4 8 7 9 14 11 13 18 19 
+Splay tree: 
+0 1 4 19 11 7 6 9 8 10 13 18 14 
+QUEUES: 
+13 19 4 0 3 
+AVL tree: 
+10 6 1 0 4 3 8 7 9 14 11 13 18 19 
+Splay tree: 
+3 0 1 4 19 11 7 6 9 8 10 13 18 14 
+QUEUES: 
+19 4 0 3 5 
+AVL tree: 
+10 6 1 0 4 3 5 8 7 9 14 11 13 18 19 
+Splay tree: 
+5 4 3 0 1 11 6 7 9 8 10 19 13 18 14 
+QUEUES: 
+4 0 3 5 12 
+AVL tree: 
+10 6 1 0 4 3 5 8 7 9 14 12 11 13 18 19 
+Splay tree: 
+12 11 5 4 3 0 1 6 7 9 8 10 13 19 18 14 
+QUEUES: 
+0 3 5 12 15 
+AVL tree: 
+10 6 1 0 4 3 5 8 7 9 14 12 11 13 18 15 19 
+Splay tree: 
+15 12 11 5 4 3 0 1 6 7 9 8 10 13 14 19 18 
+QUEUES: 
+3 5 12 15 2 
+AVL tree: 
+10 6 3 1 0 2 4 5 8 7 9 14 12 11 13 18 15 19 
+Splay tree: 
+2 1 0 12 5 3 4 11 6 7 9 8 10 15 13 14 19 18 
+QUEUES: 
+5 12 15 2 16 
+AVL tree: 
+10 6 3 1 0 2 4 5 8 7 9 14 12 11 13 18 15 16 19 
+Splay tree: 
+16 2 1 0 15 12 5 3 4 11 6 7 9 8 10 13 14 18 19 
+QUEUES: 
+12 15 2 16 17 
+AVL tree: 
+10 6 3 1 0 2 4 5 8 7 9 14 12 11 13 18 16 15 17 19 
+Splay tree: 
+17 16 2 1 0 15 12 5 3 4 11 6 7 9 8 10 13 14 18 19 
+Duplicate key

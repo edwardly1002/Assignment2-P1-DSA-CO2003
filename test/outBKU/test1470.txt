@@ -1,0 +1,121 @@
+QUEUES: 
+4 
+AVL tree: 
+4 
+Splay tree: 
+4 
+QUEUES: 
+4 0 
+AVL tree: 
+4 0 
+Splay tree: 
+0 4 
+QUEUES: 
+4 0 7 
+AVL tree: 
+4 0 7 
+Splay tree: 
+7 4 0 
+QUEUES: 
+4 0 7 2 
+AVL tree: 
+4 0 2 7 
+Splay tree: 
+2 0 7 4 
+QUEUES: 
+4 0 7 2 16 
+AVL tree: 
+4 0 2 7 16 
+Splay tree: 
+16 7 2 0 4 
+QUEUES: 
+0 7 2 16 3 
+AVL tree: 
+4 2 0 3 7 16 
+Splay tree: 
+3 2 0 7 4 16 
+QUEUES: 
+7 2 16 3 10 
+AVL tree: 
+4 2 0 3 10 7 16 
+Splay tree: 
+10 3 2 0 7 4 16 
+QUEUES: 
+2 16 3 10 11 
+AVL tree: 
+4 2 0 3 10 7 16 11 
+Splay tree: 
+11 10 3 2 0 7 4 16 
+QUEUES: 
+16 3 10 11 13 
+AVL tree: 
+4 2 0 3 10 7 13 11 16 
+Splay tree: 
+13 11 10 3 2 0 7 4 16 
+QUEUES: 
+3 10 11 13 14 
+AVL tree: 
+4 2 0 3 13 10 7 11 16 14 
+Splay tree: 
+14 13 11 10 3 2 0 7 4 16 
+QUEUES: 
+10 11 13 14 15 
+AVL tree: 
+4 2 0 3 13 10 7 11 15 14 16 
+Splay tree: 
+15 14 13 11 10 3 2 0 7 4 16 
+QUEUES: 
+11 13 14 15 19 
+AVL tree: 
+13 4 2 0 3 10 7 11 15 14 16 19 
+Splay tree: 
+19 16 15 14 13 11 10 3 2 0 7 4 
+QUEUES: 
+13 14 15 19 6 
+AVL tree: 
+13 4 2 0 3 10 7 6 11 15 14 16 19 
+Splay tree: 
+6 3 2 0 4 16 14 11 10 7 13 15 19 
+QUEUES: 
+14 15 19 6 8 
+AVL tree: 
+13 4 2 0 3 10 7 6 8 11 15 14 16 19 
+Splay tree: 
+8 6 3 2 0 4 7 16 11 10 14 13 15 19 
+QUEUES: 
+15 19 6 8 12 
+AVL tree: 
+13 4 2 0 3 10 7 6 8 11 12 15 14 16 19 
+Splay tree: 
+12 8 6 3 2 0 4 7 11 10 16 13 14 15 19 
+QUEUES: 
+19 6 8 12 1 
+AVL tree: 
+13 4 2 0 1 3 10 7 6 8 11 12 15 14 16 19 
+Splay tree: 
+1 0 8 3 2 6 4 7 12 11 10 16 13 14 15 19 
+QUEUES: 
+6 8 12 1 9 
+AVL tree: 
+10 4 2 0 1 3 7 6 8 9 13 11 12 15 14 16 19 
+Splay tree: 
+9 1 0 8 3 2 6 4 7 12 10 11 16 13 14 15 19 
+QUEUES: 
+8 12 1 9 5 
+AVL tree: 
+10 4 2 0 1 3 7 6 5 8 9 13 11 12 15 14 16 19 
+Splay tree: 
+5 1 0 3 2 4 9 8 6 7 12 10 11 16 13 14 15 19 
+QUEUES: 
+12 1 9 5 17 
+AVL tree: 
+10 4 2 0 1 3 7 6 5 8 9 13 11 12 15 14 17 16 19 
+Splay tree: 
+17 5 1 0 3 2 4 12 9 8 6 7 10 11 16 13 14 15 19 
+QUEUES: 
+1 9 5 17 18 
+AVL tree: 
+10 4 2 0 1 3 7 6 5 8 9 13 11 12 17 15 14 16 19 18 
+Splay tree: 
+18 17 5 1 0 3 2 4 12 9 8 6 7 10 11 16 13 14 15 19 
+Duplicate key

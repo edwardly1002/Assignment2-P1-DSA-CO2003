@@ -1,0 +1,121 @@
+QUEUES: 
+13 
+AVL tree: 
+13 
+Splay tree: 
+13 
+QUEUES: 
+13 4 
+AVL tree: 
+13 4 
+Splay tree: 
+4 13 
+QUEUES: 
+13 4 5 
+AVL tree: 
+5 4 13 
+Splay tree: 
+5 4 13 
+QUEUES: 
+13 4 5 18 
+AVL tree: 
+5 4 13 18 
+Splay tree: 
+18 13 5 4 
+QUEUES: 
+13 4 5 18 1 
+AVL tree: 
+5 4 1 13 18 
+Splay tree: 
+1 13 4 5 18 
+QUEUES: 
+4 5 18 1 2 
+AVL tree: 
+5 2 1 4 13 18 
+Splay tree: 
+2 1 4 13 5 18 
+QUEUES: 
+5 18 1 2 6 
+AVL tree: 
+5 2 1 4 13 6 18 
+Splay tree: 
+6 4 2 1 5 13 18 
+QUEUES: 
+18 1 2 6 14 
+AVL tree: 
+5 2 1 4 13 6 18 14 
+Splay tree: 
+14 6 4 2 1 5 13 18 
+QUEUES: 
+1 2 6 14 19 
+AVL tree: 
+5 2 1 4 13 6 18 14 19 
+Splay tree: 
+19 18 14 6 4 2 1 5 13 
+QUEUES: 
+2 6 14 19 7 
+AVL tree: 
+5 2 1 4 13 6 7 18 14 19 
+Splay tree: 
+7 6 4 2 1 5 19 14 13 18 
+QUEUES: 
+6 14 19 7 8 
+AVL tree: 
+5 2 1 4 13 7 6 8 18 14 19 
+Splay tree: 
+8 7 6 4 2 1 5 19 13 14 18 
+QUEUES: 
+14 19 7 8 0 
+AVL tree: 
+5 2 1 0 4 13 7 6 8 18 14 19 
+Splay tree: 
+0 7 4 1 2 6 5 8 19 13 14 18 
+QUEUES: 
+19 7 8 0 3 
+AVL tree: 
+5 2 1 0 4 3 13 7 6 8 18 14 19 
+Splay tree: 
+3 0 2 1 4 7 6 5 8 19 13 14 18 
+QUEUES: 
+7 8 0 3 10 
+AVL tree: 
+5 2 1 0 4 3 13 7 6 8 10 18 14 19 
+Splay tree: 
+10 4 3 0 2 1 8 7 6 5 13 19 14 18 
+QUEUES: 
+8 0 3 10 11 
+AVL tree: 
+5 2 1 0 4 3 13 7 6 10 8 11 18 14 19 
+Splay tree: 
+11 10 4 3 0 2 1 8 7 6 5 13 19 14 18 
+QUEUES: 
+0 3 10 11 12 
+AVL tree: 
+5 2 1 0 4 3 13 10 7 6 8 11 12 18 14 19 
+Splay tree: 
+12 11 10 4 3 0 2 1 8 7 6 5 13 19 14 18 
+QUEUES: 
+3 10 11 12 15 
+AVL tree: 
+5 2 1 0 4 3 13 10 7 6 8 11 12 18 14 15 19 
+Splay tree: 
+15 12 11 10 4 3 0 2 1 8 7 6 5 13 14 19 18 
+QUEUES: 
+10 11 12 15 16 
+AVL tree: 
+5 2 1 0 4 3 13 10 7 6 8 11 12 18 15 14 16 19 
+Splay tree: 
+16 15 12 11 10 4 3 0 2 1 8 7 6 5 13 14 18 19 
+QUEUES: 
+11 12 15 16 9 
+AVL tree: 
+10 5 2 1 0 4 3 7 6 8 9 13 11 12 18 15 14 16 19 
+Splay tree: 
+9 8 4 3 0 2 1 7 6 5 16 12 10 11 15 13 14 18 19 
+QUEUES: 
+12 15 16 9 17 
+AVL tree: 
+10 5 2 1 0 4 3 7 6 8 9 13 11 12 16 15 14 18 17 19 
+Splay tree: 
+17 9 8 4 3 0 2 1 7 6 5 16 12 10 11 15 13 14 18 19 
+Duplicate key

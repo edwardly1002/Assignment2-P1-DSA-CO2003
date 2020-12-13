@@ -1,0 +1,121 @@
+QUEUES: 
+14 
+AVL tree: 
+14 
+Splay tree: 
+14 
+QUEUES: 
+14 16 
+AVL tree: 
+14 16 
+Splay tree: 
+16 14 
+QUEUES: 
+14 16 8 
+AVL tree: 
+14 8 16 
+Splay tree: 
+8 14 16 
+QUEUES: 
+14 16 8 6 
+AVL tree: 
+14 8 6 16 
+Splay tree: 
+6 8 14 16 
+QUEUES: 
+14 16 8 6 19 
+AVL tree: 
+14 8 6 16 19 
+Splay tree: 
+19 8 6 16 14 
+QUEUES: 
+16 8 6 19 17 
+AVL tree: 
+14 8 6 17 16 19 
+Splay tree: 
+17 16 8 6 14 19 
+QUEUES: 
+8 6 19 17 18 
+AVL tree: 
+14 8 6 17 16 19 18 
+Splay tree: 
+18 17 16 8 6 14 19 
+QUEUES: 
+6 19 17 18 10 
+AVL tree: 
+14 8 6 10 17 16 19 18 
+Splay tree: 
+10 8 6 18 16 14 17 19 
+QUEUES: 
+19 17 18 10 12 
+AVL tree: 
+14 8 6 10 12 17 16 19 18 
+Splay tree: 
+12 10 8 6 18 14 16 17 19 
+QUEUES: 
+17 18 10 12 4 
+AVL tree: 
+14 8 6 4 10 12 17 16 19 18 
+Splay tree: 
+4 10 6 8 12 18 14 16 17 19 
+QUEUES: 
+18 10 12 4 5 
+AVL tree: 
+14 8 5 4 6 10 12 17 16 19 18 
+Splay tree: 
+5 4 6 10 8 12 18 14 16 17 19 
+QUEUES: 
+10 12 4 5 9 
+AVL tree: 
+14 8 5 4 6 10 9 12 17 16 19 18 
+Splay tree: 
+9 6 5 4 8 10 12 18 14 16 17 19 
+QUEUES: 
+12 4 5 9 7 
+AVL tree: 
+14 8 5 4 6 7 10 9 12 17 16 19 18 
+Splay tree: 
+7 6 5 4 9 8 10 12 18 14 16 17 19 
+QUEUES: 
+4 5 9 7 13 
+AVL tree: 
+14 8 5 4 6 7 10 9 12 13 17 16 19 18 
+Splay tree: 
+13 9 7 6 5 4 8 12 10 14 18 16 17 19 
+QUEUES: 
+5 9 7 13 3 
+AVL tree: 
+14 8 5 4 3 6 7 10 9 12 13 17 16 19 18 
+Splay tree: 
+3 9 6 4 5 7 8 13 12 10 14 18 16 17 19 
+QUEUES: 
+9 7 13 3 15 
+AVL tree: 
+14 8 5 4 3 6 7 10 9 12 13 17 16 15 19 18 
+Splay tree: 
+15 9 3 6 4 5 7 8 14 13 12 10 16 18 17 19 
+QUEUES: 
+7 13 3 15 11 
+AVL tree: 
+14 8 5 4 3 6 7 10 9 12 11 13 17 16 15 19 18 
+Splay tree: 
+11 9 3 6 4 5 7 8 10 15 13 12 14 16 18 17 19 
+QUEUES: 
+13 3 15 11 0 
+AVL tree: 
+14 8 5 3 0 4 6 7 10 9 12 11 13 17 16 15 19 18 
+Splay tree: 
+0 11 3 9 6 4 5 7 8 10 15 13 12 14 16 18 17 19 
+QUEUES: 
+3 15 11 0 2 
+AVL tree: 
+8 5 3 0 2 4 6 7 14 10 9 12 11 13 17 16 15 19 18 
+Splay tree: 
+2 0 3 11 9 6 4 5 7 8 10 15 13 12 14 16 18 17 19 
+QUEUES: 
+15 11 0 2 1 
+AVL tree: 
+8 5 3 1 0 2 4 6 7 14 10 9 12 11 13 17 16 15 19 18 
+Splay tree: 
+1 0 2 3 11 9 6 4 5 7 8 10 15 13 12 14 16 18 17 19 
+Duplicate key

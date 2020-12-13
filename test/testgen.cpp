@@ -10,16 +10,51 @@ int bku[] = {500, 2000, 5000};
 ifstream ifile;
 ofstream ofile;
 
-bool comp(int a, int b) {
-    int n = rand()%2;
-    if (n==0) return a > b;
-    else return a < b;
+void swap(int* a, int* b)  
+{  
+    int t = *a;  
+    *a = *b;  
+    *b = t;  
+}  
+
+int partition (int arr[], int low, int high)  
+{  
+    int pivot = arr[high]; 
+    int i = (low - 1); 
+  
+    for (int j = low; j <= high - 1; j++)  
+    {  
+        int k = rand()%2;
+        if (arr[j] < pivot && k==0)   
+        {  
+            i++; 
+            swap(&arr[i], &arr[j]);  
+        }  
+    }  
+    swap(&arr[i + 1], &arr[high]);  
+    return (i + 1);  
+}  
+  
+void quickSort(int arr[], int low, int high)  
+{  
+    if (low < high)  
+    {  
+        int pi = partition(arr, low, high);   
+        quickSort(arr, low, pi - 1);  
+        quickSort(arr, pi + 1, high);  
+    }  
 }
+
+// bool comp(int a, int b) {
+//     int n = rand()%2;
+//     if (n==0) return a > b;
+//     else return a < b;
+// }
 
 void makeACase(int a, int i, int nodes) {
     int arr[1000];
     for (int j = 0; j < 101; ++j) arr[j] = j;
-    sort(arr, arr+nodes, comp);
+    quickSort(arr, 0, nodes-1);
 
     string path = "test/" + name[a] + "/test" + to_string(i) + ".txt";
     freopen(path.c_str(), "w", stdout);

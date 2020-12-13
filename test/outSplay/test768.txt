@@ -1,0 +1,37 @@
+QUEUES: 
+48 
+AVL tree: 
+48 
+Splay tree: 
+48 
+QUEUES: 
+48 59 
+AVL tree: 
+48 59 
+Splay tree: 
+59 48 
+QUEUES: 
+48 59 44 
+AVL tree: 
+48 44 59 
+Splay tree: 
+44 48 59 
+QUEUES: 
+48 59 44 71 
+AVL tree: 
+48 44 59 71 
+Splay tree: 
+71 44 59 48 
+QUEUES: 
+48 59 44 71 91 
+AVL tree: 
+48 44 71 59 91 
+Splay tree: 
+91 71 44 59 48 
+QUEUES: 
+59 44 71 91 55 
+AVL tree: 
+59 48 44 55 71 91 
+Splay tree: 
+55 44 48 91 71 59 
+Duplicate key

@@ -1,0 +1,25 @@
+QUEUES: 
+6 
+AVL tree: 
+6 
+Splay tree: 
+6 
+QUEUES: 
+6 4 
+AVL tree: 
+6 4 
+Splay tree: 
+4 6 
+QUEUES: 
+6 4 2 
+AVL tree: 
+4 2 6 
+Splay tree: 
+2 4 6 
+QUEUES: 
+6 4 2 0 
+AVL tree: 
+4 2 0 6 
+Splay tree: 
+0 2 4 6 
+Duplicate key
