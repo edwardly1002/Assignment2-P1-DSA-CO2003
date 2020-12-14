@@ -56,7 +56,7 @@ void makeACase(int a, int i, int nodes) {
     for (int j = 0; j < 101; ++j) arr[j] = j;
     quickSort(arr, 0, nodes-1);
 
-    string path = "test/" + name[a] + "/test" + to_string(i) + ".txt";
+    string path = name[a] + "/test" + to_string(i) + ".txt";
     freopen(path.c_str(), "w", stdout);
 
     cout << a << " " << nodes << endl;
@@ -100,9 +100,9 @@ int main() {
     for (int i = avl[1]+1; i <= avl[2]; ++i) makeACase(0, i, 100);
 
     ///Splay
-    // for (int i = 1; i <= splay[0]; ++i) makeACase(1, i, 10);
-    // for (int i = splay[0]+1; i <= splay[1]; ++i) makeACase(1, i, 20);
-    // for (int i = splay[1]+1; i <= splay[2]; ++i) makeACase(1, i, 100);
+    for (int i = 1; i <= splay[0]; ++i) makeACase(1, i, 10);
+    for (int i = splay[0]+1; i <= splay[1]; ++i) makeACase(1, i, 20);
+    for (int i = splay[1]+1; i <= splay[2]; ++i) makeACase(1, i, 100);
 
     ///BKU
     for (int i = 1; i <= bku[0]; ++i) makeACase(2, i, 10);
