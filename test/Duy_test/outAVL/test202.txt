@@ -237,7 +237,7 @@ Input line: 30 /  SEARCH: 17
 TRAVERSED LIST: 
 
 QUEUES: 
-18 17 11 1 17 
+17 18 17 11 1 
 AVL tree: 
 9 5 3 1 0 2 4 7 6 8 13 11 10 12 16 14 15 18 17 19 
 Splay tree: 
@@ -247,7 +247,7 @@ Input line: 31 /  SEARCH: 4
 TRAVERSED LIST: 
 17 9 5 3 
 QUEUES: 
-17 11 1 17 4 
+18 17 11 1 4 
 AVL tree: 
 9 5 3 1 0 2 4 7 6 8 13 11 10 12 16 14 15 18 17 19 
 Splay tree: 
@@ -257,7 +257,7 @@ Input line: 32 /  SEARCH: 19
 TRAVERSED LIST: 
 17 9 13 16 18 
 QUEUES: 
-11 1 17 4 19 
+17 11 1 4 19 
 AVL tree: 
 9 5 3 1 0 2 4 7 6 8 13 11 10 12 16 14 15 18 17 19 
 Splay tree: 
@@ -267,7 +267,7 @@ Input line: 33 /  SEARCH: 0
 TRAVERSED LIST: 
 19 9 5 3 1 
 QUEUES: 
-1 17 4 19 0 
+11 1 4 19 0 
 AVL tree: 
 9 5 3 1 0 2 4 7 6 8 13 11 10 12 16 14 15 18 17 19 
 Splay tree: 
@@ -275,9 +275,9 @@ Splay tree:
 ----------------------------------------------------
 Input line: 34 /  SEARCH: 11
 TRAVERSED LIST: 
-19 9 13 
+19 18 17 15 
 QUEUES: 
-17 4 19 0 11 
+1 4 19 0 11 
 AVL tree: 
 9 5 3 1 0 2 4 7 6 8 13 11 10 12 16 14 15 18 17 19 
 Splay tree: 
@@ -285,7 +285,7 @@ Splay tree:
 ----------------------------------------------------
 Input line: 35 /  SEARCH: 17
 TRAVERSED LIST: 
-19 18 11 15 
+19 9 13 16 18 
 QUEUES: 
 4 19 0 11 17 
 AVL tree: 

@@ -100,7 +100,7 @@ Input line: 14 /  SEARCH: 8
 TRAVERSED LIST: 
 
 QUEUES: 
-5 4 6 8 8 
+3 5 4 6 8 
 AVL tree: 
 5 2 1 0 4 3 7 6 9 8 
 Splay tree: 
@@ -110,7 +110,7 @@ Input line: 15 /  SEARCH: 6
 TRAVERSED LIST: 
 8 
 QUEUES: 
-4 6 8 8 6 
+5 4 6 8 6 
 AVL tree: 
 5 2 1 0 4 3 7 6 9 8 
 Splay tree: 
@@ -120,7 +120,7 @@ Input line: 16 /  SEARCH: 9
 TRAVERSED LIST: 
 6 5 7 
 QUEUES: 
-6 8 8 6 9 
+4 6 8 6 9 
 AVL tree: 
 5 2 1 0 4 3 7 6 9 8 
 Splay tree: 
@@ -130,7 +130,7 @@ Input line: 17 /  SEARCH: 6
 TRAVERSED LIST: 
 9 8 
 QUEUES: 
-8 8 6 9 6 
+6 8 6 9 6 
 AVL tree: 
 5 2 1 0 4 3 7 6 9 8 
 Splay tree: 
