@@ -1,0 +1,264 @@
+Input line: 2 /  ADD: 3 3
+QUEUES: 
+3 
+AVL tree: 
+3 
+Splay tree: 
+3 
+----------------------------------------------------
+Input line: 3 /  ADD: 8 8
+QUEUES: 
+3 8 
+AVL tree: 
+3 8 
+Splay tree: 
+8 3 
+----------------------------------------------------
+Input line: 4 /  ADD: 0 0
+QUEUES: 
+3 8 0 
+AVL tree: 
+3 0 8 
+Splay tree: 
+0 3 8 
+----------------------------------------------------
+Input line: 5 /  ADD: 2 2
+QUEUES: 
+3 8 0 2 
+AVL tree: 
+3 0 2 8 
+Splay tree: 
+2 0 3 8 
+----------------------------------------------------
+Input line: 6 /  ADD: 4 4
+QUEUES: 
+3 8 0 2 4 
+AVL tree: 
+3 0 2 8 4 
+Splay tree: 
+4 2 0 3 8 
+----------------------------------------------------
+Input line: 7 /  ADD: 5 5
+QUEUES: 
+8 0 2 4 5 
+AVL tree: 
+3 0 2 5 4 8 
+Splay tree: 
+5 4 2 0 3 8 
+----------------------------------------------------
+Input line: 8 /  ADD: 9 9
+QUEUES: 
+0 2 4 5 9 
+AVL tree: 
+3 0 2 5 4 8 9 
+Splay tree: 
+9 8 5 4 2 0 3 
+----------------------------------------------------
+Input line: 9 /  ADD: 6 6
+QUEUES: 
+2 4 5 9 6 
+AVL tree: 
+3 0 2 5 4 8 6 9 
+Splay tree: 
+6 5 4 2 0 3 9 8 
+----------------------------------------------------
+Input line: 10 /  ADD: 7 7
+QUEUES: 
+4 5 9 6 7 
+AVL tree: 
+3 0 2 6 5 4 8 7 9 
+Splay tree: 
+7 6 5 4 2 0 3 8 9 
+----------------------------------------------------
+Input line: 11 /  ADD: 1 1
+QUEUES: 
+5 9 6 7 1 
+AVL tree: 
+3 1 0 2 6 5 4 8 7 9 
+Splay tree: 
+1 0 6 4 2 3 5 7 8 9 
+----------------------------------------------------
+Input line: 12 /  ADD: 2 2
+Duplicate key
+QUEUES: 
+5 9 6 7 1 
+AVL tree: 
+3 1 0 2 6 5 4 8 7 9 
+Splay tree: 
+1 0 6 4 2 3 5 7 8 9 
+----------------------------------------------------
+Input line: 13 /  ADD: 4 4
+Duplicate key
+QUEUES: 
+5 9 6 7 1 
+AVL tree: 
+3 1 0 2 6 5 4 8 7 9 
+Splay tree: 
+1 0 6 4 2 3 5 7 8 9 
+----------------------------------------------------
+Input line: 14 /  SEARCH: 5
+TRAVERSED LIST: 
+1 6 4 
+QUEUES: 
+9 6 7 1 5 
+AVL tree: 
+3 1 0 2 6 5 4 8 7 9 
+Splay tree: 
+1 0 5 4 2 3 6 7 8 9 
+----------------------------------------------------
+Input line: 15 /  SEARCH: 9
+TRAVERSED LIST: 
+1 5 6 7 8 
+QUEUES: 
+6 7 1 5 9 
+AVL tree: 
+3 1 0 2 6 5 4 8 7 9 
+Splay tree: 
+1 0 5 4 2 3 6 9 8 7 
+----------------------------------------------------
+Input line: 16 /  SEARCH: 6
+TRAVERSED LIST: 
+1 5 
+QUEUES: 
+7 1 5 9 6 
+AVL tree: 
+3 1 0 2 6 5 4 8 7 9 
+Splay tree: 
+6 5 1 0 4 2 3 9 8 7 
+----------------------------------------------------
+Input line: 17 /  SEARCH: 9
+TRAVERSED LIST: 
+6 
+QUEUES: 
+1 5 9 6 9 
+AVL tree: 
+3 1 0 2 6 5 4 8 7 9 
+Splay tree: 
+9 6 5 1 0 4 2 3 8 7 
+----------------------------------------------------
+Input line: 18 /  SEARCH: 0
+TRAVERSED LIST: 
+9 3 1 
+QUEUES: 
+5 9 6 9 0 
+AVL tree: 
+3 1 0 2 6 5 4 8 7 9 
+Splay tree: 
+9 6 0 1 5 4 2 3 8 7 
+----------------------------------------------------
+Input line: 19 /  SEARCH: 16
+Not found
+QUEUES: 
+5 9 6 9 0 
+AVL tree: 
+3 1 0 2 6 5 4 8 7 9 
+Splay tree: 
+9 6 0 1 5 4 2 3 8 7 
+----------------------------------------------------
+Input line: 20 /  SEARCH: 17
+Not found
+QUEUES: 
+5 9 6 9 0 
+AVL tree: 
+3 1 0 2 6 5 4 8 7 9 
+Splay tree: 
+9 6 0 1 5 4 2 3 8 7 
+----------------------------------------------------
+Input line: 21 /  DEL: 11
+Not found
+QUEUES: 
+5 9 6 9 0 
+AVL tree: 
+3 1 0 2 6 5 4 8 7 9 
+Splay tree: 
+9 6 0 1 5 4 2 3 8 7 
+----------------------------------------------------
+Input line: 22 /  DEL: 13
+Not found
+QUEUES: 
+5 9 6 9 0 
+AVL tree: 
+3 1 0 2 6 5 4 8 7 9 
+Splay tree: 
+9 6 0 1 5 4 2 3 8 7 
+----------------------------------------------------
+Input line: 23 /  DEL: 0
+QUEUES: 
+5 9 6 9 6 
+AVL tree: 
+3 1 2 6 5 4 8 7 9 
+Splay tree: 
+6 1 5 4 2 3 9 8 7 
+----------------------------------------------------
+Input line: 24 /  DEL: 1
+QUEUES: 
+5 9 6 9 6 
+AVL tree: 
+6 3 2 5 4 8 7 9 
+Splay tree: 
+6 5 4 2 3 9 8 7 
+----------------------------------------------------
+Input line: 25 /  DEL: 2
+QUEUES: 
+5 9 6 9 6 
+AVL tree: 
+6 4 3 5 8 7 9 
+Splay tree: 
+6 4 3 5 9 8 7 
+----------------------------------------------------
+Input line: 26 /  DEL: 3
+QUEUES: 
+5 9 6 9 6 
+AVL tree: 
+6 4 5 8 7 9 
+Splay tree: 
+4 6 5 9 8 7 
+----------------------------------------------------
+Input line: 27 /  DEL: 4
+QUEUES: 
+5 9 6 9 6 
+AVL tree: 
+6 5 8 7 9 
+Splay tree: 
+6 5 9 8 7 
+----------------------------------------------------
+Input line: 28 /  DEL: 5
+QUEUES: 
+9 6 9 6 6 
+AVL tree: 
+8 6 7 9 
+Splay tree: 
+6 9 8 7 
+----------------------------------------------------
+Input line: 29 /  DEL: 6
+QUEUES: 
+9 9 9 
+AVL tree: 
+8 7 9 
+Splay tree: 
+9 8 7 
+----------------------------------------------------
+Input line: 30 /  DEL: 7
+QUEUES: 
+9 9 9 
+AVL tree: 
+8 9 
+Splay tree: 
+8 9 
+----------------------------------------------------
+Input line: 31 /  DEL: 8
+QUEUES: 
+9 9 9 
+AVL tree: 
+9 
+Splay tree: 
+9 
+----------------------------------------------------
+Input line: 32 /  DEL: 9
+QUEUES: 
+
+AVL tree: 
+
+Splay tree: 
+
+----------------------------------------------------
