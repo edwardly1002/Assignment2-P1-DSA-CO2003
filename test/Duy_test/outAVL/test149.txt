@@ -237,7 +237,7 @@ Input line: 30 /  SEARCH: 18
 TRAVERSED LIST: 
 12 
 QUEUES: 
-3 12 5 18 4 
+12 5 18 4 18 
 AVL tree: 
 9 5 2 0 1 4 3 7 6 8 15 11 10 13 12 14 18 17 16 19 
 Splay tree: 
@@ -247,7 +247,7 @@ Input line: 31 /  SEARCH: 18
 TRAVERSED LIST: 
 
 QUEUES: 
-3 12 5 18 4 
+5 18 4 18 18 
 AVL tree: 
 9 5 2 0 1 4 3 7 6 8 15 11 10 13 12 14 18 17 16 19 
 Splay tree: 
@@ -255,9 +255,9 @@ Splay tree:
 ----------------------------------------------------
 Input line: 32 /  SEARCH: 3
 TRAVERSED LIST: 
-18 12 
+18 17 16 9 5 2 4 
 QUEUES: 
-3 12 5 18 4 
+18 4 18 18 3 
 AVL tree: 
 9 5 2 0 1 4 3 7 6 8 15 11 10 13 12 14 18 17 16 19 
 Splay tree: 
@@ -267,7 +267,7 @@ Input line: 33 /  SEARCH: 9
 TRAVERSED LIST: 
 3 
 QUEUES: 
-12 5 18 4 9 
+4 18 18 3 9 
 AVL tree: 
 9 5 2 0 1 4 3 7 6 8 15 11 10 13 12 14 18 17 16 19 
 Splay tree: 
@@ -277,7 +277,7 @@ Input line: 34 /  SEARCH: 11
 TRAVERSED LIST: 
 3 9 15 
 QUEUES: 
-5 18 4 9 11 
+18 18 3 9 11 
 AVL tree: 
 9 5 2 0 1 4 3 7 6 8 15 11 10 13 12 14 18 17 16 19 
 Splay tree: 
@@ -287,7 +287,7 @@ Input line: 35 /  SEARCH: 7
 TRAVERSED LIST: 
 3 9 5 
 QUEUES: 
-18 4 9 11 7 
+18 3 9 11 7 
 AVL tree: 
 9 5 2 0 1 4 3 7 6 8 15 11 10 13 12 14 18 17 16 19 
 Splay tree: 
@@ -297,7 +297,7 @@ Input line: 36 /  SEARCH: 19
 TRAVERSED LIST: 
 3 9 15 18 
 QUEUES: 
-4 9 11 7 19 
+3 9 11 7 19 
 AVL tree: 
 9 5 2 0 1 4 3 7 6 8 15 11 10 13 12 14 18 17 16 19 
 Splay tree: 
@@ -306,7 +306,7 @@ Splay tree:
 Input line: 37 /  SEARCH: 28
 Not found
 QUEUES: 
-4 9 11 7 19 
+3 9 11 7 19 
 AVL tree: 
 9 5 2 0 1 4 3 7 6 8 15 11 10 13 12 14 18 17 16 19 
 Splay tree: 
@@ -315,7 +315,7 @@ Splay tree:
 Input line: 38 /  SEARCH: 22
 Not found
 QUEUES: 
-4 9 11 7 19 
+3 9 11 7 19 
 AVL tree: 
 9 5 2 0 1 4 3 7 6 8 15 11 10 13 12 14 18 17 16 19 
 Splay tree: 
@@ -324,7 +324,7 @@ Splay tree:
 Input line: 39 /  SEARCH: 21
 Not found
 QUEUES: 
-4 9 11 7 19 
+3 9 11 7 19 
 AVL tree: 
 9 5 2 0 1 4 3 7 6 8 15 11 10 13 12 14 18 17 16 19 
 Splay tree: 
@@ -333,7 +333,7 @@ Splay tree:
 Input line: 40 /  SEARCH: 32
 Not found
 QUEUES: 
-4 9 11 7 19 
+3 9 11 7 19 
 AVL tree: 
 9 5 2 0 1 4 3 7 6 8 15 11 10 13 12 14 18 17 16 19 
 Splay tree: 
@@ -342,7 +342,7 @@ Splay tree:
 Input line: 41 /  SEARCH: 26
 Not found
 QUEUES: 
-4 9 11 7 19 
+3 9 11 7 19 
 AVL tree: 
 9 5 2 0 1 4 3 7 6 8 15 11 10 13 12 14 18 17 16 19 
 Splay tree: 
@@ -351,7 +351,7 @@ Splay tree:
 Input line: 42 /  DEL: 36
 Not found
 QUEUES: 
-4 9 11 7 19 
+3 9 11 7 19 
 AVL tree: 
 9 5 2 0 1 4 3 7 6 8 15 11 10 13 12 14 18 17 16 19 
 Splay tree: 
@@ -360,7 +360,7 @@ Splay tree:
 Input line: 43 /  DEL: 20
 Not found
 QUEUES: 
-4 9 11 7 19 
+3 9 11 7 19 
 AVL tree: 
 9 5 2 0 1 4 3 7 6 8 15 11 10 13 12 14 18 17 16 19 
 Splay tree: 
@@ -369,7 +369,7 @@ Splay tree:
 Input line: 44 /  DEL: 32
 Not found
 QUEUES: 
-4 9 11 7 19 
+3 9 11 7 19 
 AVL tree: 
 9 5 2 0 1 4 3 7 6 8 15 11 10 13 12 14 18 17 16 19 
 Splay tree: 
@@ -378,7 +378,7 @@ Splay tree:
 Input line: 45 /  DEL: 23
 Not found
 QUEUES: 
-4 9 11 7 19 
+3 9 11 7 19 
 AVL tree: 
 9 5 2 0 1 4 3 7 6 8 15 11 10 13 12 14 18 17 16 19 
 Splay tree: 
@@ -387,7 +387,7 @@ Splay tree:
 Input line: 46 /  DEL: 37
 Not found
 QUEUES: 
-4 9 11 7 19 
+3 9 11 7 19 
 AVL tree: 
 9 5 2 0 1 4 3 7 6 8 15 11 10 13 12 14 18 17 16 19 
 Splay tree: 
@@ -395,7 +395,7 @@ Splay tree:
 ----------------------------------------------------
 Input line: 47 /  DEL: 0
 QUEUES: 
-4 9 11 7 19 
+3 9 11 7 19 
 AVL tree: 
 9 5 2 1 4 3 7 6 8 15 11 10 13 12 14 18 17 16 19 
 Splay tree: 
@@ -403,7 +403,7 @@ Splay tree:
 ----------------------------------------------------
 Input line: 48 /  DEL: 1
 QUEUES: 
-4 9 11 7 19 
+3 9 11 7 19 
 AVL tree: 
 9 5 3 2 4 7 6 8 15 11 10 13 12 14 18 17 16 19 
 Splay tree: 
@@ -411,7 +411,7 @@ Splay tree:
 ----------------------------------------------------
 Input line: 49 /  DEL: 2
 QUEUES: 
-4 9 11 7 19 
+3 9 11 7 19 
 AVL tree: 
 9 5 3 4 7 6 8 15 11 10 13 12 14 18 17 16 19 
 Splay tree: 
@@ -419,7 +419,7 @@ Splay tree:
 ----------------------------------------------------
 Input line: 50 /  DEL: 3
 QUEUES: 
-4 9 11 7 19 
+9 11 7 19 19 
 AVL tree: 
 9 5 4 7 6 8 15 11 10 13 12 14 18 17 16 19 
 Splay tree: 
