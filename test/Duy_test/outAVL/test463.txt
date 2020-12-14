@@ -1405,7 +1405,7 @@ Splay tree:
 ----------------------------------------------------
 Input line: 165 /  SEARCH: 95
 TRAVERSED LIST: 
-96 95 
+96 
 QUEUES: 
 83 36 40 18 32 
 AVL tree: 

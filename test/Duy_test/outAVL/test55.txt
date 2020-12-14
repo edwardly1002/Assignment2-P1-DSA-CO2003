@@ -128,7 +128,7 @@ Splay tree:
 ----------------------------------------------------
 Input line: 17 /  SEARCH: 9
 TRAVERSED LIST: 
-5 7 9 
+5 7 
 QUEUES: 
 4 8 7 4 5 
 AVL tree: 
@@ -138,7 +138,7 @@ Splay tree:
 ----------------------------------------------------
 Input line: 18 /  SEARCH: 1
 TRAVERSED LIST: 
-5 1 
+5 
 QUEUES: 
 4 8 7 4 5 
 AVL tree: 

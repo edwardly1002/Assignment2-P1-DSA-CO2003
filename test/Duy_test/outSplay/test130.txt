@@ -100,7 +100,7 @@ Input line: 14 /  SEARCH: 6
 TRAVERSED LIST: 
 7 
 QUEUES: 
-5 9 6 0 7 
+9 6 0 7 6 
 AVL tree: 
 4 2 1 0 3 8 6 5 7 9 
 Splay tree: 
@@ -110,7 +110,7 @@ Input line: 15 /  SEARCH: 1
 TRAVERSED LIST: 
 6 5 4 2 
 QUEUES: 
-9 6 0 7 1 
+6 0 7 6 1 
 AVL tree: 
 4 2 1 0 3 8 6 5 7 9 
 Splay tree: 
@@ -120,7 +120,7 @@ Input line: 16 /  SEARCH: 2
 TRAVERSED LIST: 
 6 5 4 
 QUEUES: 
-6 0 7 1 2 
+0 7 6 1 2 
 AVL tree: 
 4 2 1 0 3 8 6 5 7 9 
 Splay tree: 
@@ -130,7 +130,7 @@ Input line: 17 /  SEARCH: 4
 TRAVERSED LIST: 
 6 5 
 QUEUES: 
-0 7 1 2 4 
+7 6 1 2 4 
 AVL tree: 
 4 2 1 0 3 8 6 5 7 9 
 Splay tree: 
@@ -140,7 +140,7 @@ Input line: 18 /  SEARCH: 7
 TRAVERSED LIST: 
 6 
 QUEUES: 
-0 7 1 2 4 
+6 1 2 4 7 
 AVL tree: 
 4 2 1 0 3 8 6 5 7 9 
 Splay tree: 
@@ -149,7 +149,7 @@ Splay tree:
 Input line: 19 /  SEARCH: 10
 Not found
 QUEUES: 
-0 7 1 2 4 
+6 1 2 4 7 
 AVL tree: 
 4 2 1 0 3 8 6 5 7 9 
 Splay tree: 
@@ -158,7 +158,7 @@ Splay tree:
 Input line: 20 /  SEARCH: 19
 Not found
 QUEUES: 
-0 7 1 2 4 
+6 1 2 4 7 
 AVL tree: 
 4 2 1 0 3 8 6 5 7 9 
 Splay tree: 
@@ -167,7 +167,7 @@ Splay tree:
 Input line: 21 /  DEL: 13
 Not found
 QUEUES: 
-0 7 1 2 4 
+6 1 2 4 7 
 AVL tree: 
 4 2 1 0 3 8 6 5 7 9 
 Splay tree: 
@@ -176,7 +176,7 @@ Splay tree:
 Input line: 22 /  DEL: 13
 Not found
 QUEUES: 
-0 7 1 2 4 
+6 1 2 4 7 
 AVL tree: 
 4 2 1 0 3 8 6 5 7 9 
 Splay tree: 
@@ -184,7 +184,7 @@ Splay tree:
 ----------------------------------------------------
 Input line: 23 /  DEL: 0
 QUEUES: 
-7 1 2 4 6 
+6 1 2 4 7 
 AVL tree: 
 4 2 1 3 8 6 5 7 9 
 Splay tree: 
@@ -192,7 +192,7 @@ Splay tree:
 ----------------------------------------------------
 Input line: 24 /  DEL: 1
 QUEUES: 
-7 2 4 6 6 
+6 2 4 7 6 
 AVL tree: 
 4 2 3 8 6 5 7 9 
 Splay tree: 
@@ -200,7 +200,7 @@ Splay tree:
 ----------------------------------------------------
 Input line: 25 /  DEL: 2
 QUEUES: 
-7 4 6 6 6 
+6 4 7 6 6 
 AVL tree: 
 6 4 3 5 8 7 9 
 Splay tree: 
@@ -208,7 +208,7 @@ Splay tree:
 ----------------------------------------------------
 Input line: 26 /  DEL: 3
 QUEUES: 
-7 4 6 6 6 
+6 4 7 6 6 
 AVL tree: 
 6 4 5 8 7 9 
 Splay tree: 
@@ -216,7 +216,7 @@ Splay tree:
 ----------------------------------------------------
 Input line: 27 /  DEL: 4
 QUEUES: 
-7 6 6 6 6 
+6 7 6 6 6 
 AVL tree: 
 6 5 8 7 9 
 Splay tree: 
@@ -224,7 +224,7 @@ Splay tree:
 ----------------------------------------------------
 Input line: 28 /  DEL: 5
 QUEUES: 
-7 6 6 6 6 
+6 7 6 6 6 
 AVL tree: 
 8 6 7 9 
 Splay tree: 
