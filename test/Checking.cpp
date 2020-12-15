@@ -10,10 +10,12 @@ int main()
 {
     string path_myOutput = "D:/Duy/HCMUT/Assignment/DSA/Assignment 2/Duy_test/";            //your output path
     string path_FriendOutput = "D:/Duy/Github/DSA_Assignment2-P1/test/Duy_test/";           //your friend output path
-    for (int t = 0; t < 3; ++t) {
-        for (int iTest = 1; iTest <= num_test[t]; ++iTest) {       
+    for (int t = 0; t < 3; ++t) {                                                           
+        for (int iTest = 1; iTest <= num_test[t]; ++iTest) {                                
             string myOut = path_myOutput + out_name[t] + "/test" + to_string(iTest) + ".txt";
             string friendOut = path_FriendOutput + out_name[t] + "/test" + to_string(iTest) + ".txt";
+            // string myOut = "D:/Duy/HCMUT/Assignment/DSA/Assignment 2/myans.txt";         //your output of unit_test
+            // string friendOut = "D:/Duy/HCMUT/Assignment/DSA/Assignment 2/ans.txt";       
             ifstream myF;
             ifstream friendF;
             myF.open(myOut);
